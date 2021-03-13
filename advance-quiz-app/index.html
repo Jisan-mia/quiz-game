@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Quiz Challenge</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h1 class="brand">Quiz</h1>
+				<ul class="nav-lists">
+					<li><a href="/game.html">Play</a></li>
+					<li><a href="/highscores.html">High Score</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container">
+			<div id="home" class="">
+				<form class="home-page-form flex-column flex-center">
+					<div>
+						<label for="numberOfQues">Number Of Question</label>
+						<input
+							id="numberOfQuestion"
+							type="number"
+							placeholder="Number of questions"
+						/>
+					</div>
+
+					<div>
+						<label for="category">Select Category</label>
+						<select name="category" id="category">
+							<option selected value="generalKnowledge">
+								General Knowledge
+							</option>
+							<option value="sports">Sports</option>
+							<option value="computers">Science Computers</option>
+						</select>
+					</div>
+					<div>
+						<label for="difficulty">Difficulty</label>
+						<select name="difficulty" id="difficulty">
+							<option selected value="easy">Easy</option>
+							<option value="mediam">Mediam</option>
+							<option value="hard">Hard</option>
+						</select>
+					</div>
+
+					<a id="homePlayBtn" class="btn">Play</a>
+				</form>
+			</div>
+		</div>
+		<!-- <script src="game.js"></script> -->
+	</body>
+</html>
