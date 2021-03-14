@@ -79,6 +79,8 @@ function quizPlay(e) {
 				: "";
 		qDifficulty = difficulty.value;
 
+		homePage.classList.add("hidden");
+		loader.classList.remove("hidden");
 		fetchQuestions();
 	} else {
 		console.log("there is no question amount");
@@ -128,8 +130,8 @@ const startQuiz = () => {
 	availableQuestions = [...allQuestions];
 	MAX_QUESTIONS = allQuestions.length;
 	getNewQuestion();
-	homePage.classList.add("hidden");
 	quizPage.classList.remove("hidden");
+	loader.classList.add("hidden");
 };
 
 //get a new question
@@ -225,6 +227,7 @@ function endPageFunc() {
 
 		endPage.classList.add("hidden");
 		homePage.classList.remove("hidden");
+		scoreText.innerHTML = "0";
 	});
 }
 

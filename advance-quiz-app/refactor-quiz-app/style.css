@@ -267,12 +267,12 @@ td {
 }
 
 /* loader */
-#loader {
-	border: 1.6rem solid white;
+.loader {
+	border: 1.5rem solid white;
 	border-radius: 50%;
-	border-top: 1.6rem solid #56a5eb;
-	width: 12rem;
-	height: 12rem;
+	border-top: 1.5rem solid #00539b;
+	width: 10rem;
+	height: 10rem;
 	animation: spin 2s linear infinite;
 }
 
