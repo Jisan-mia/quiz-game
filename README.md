@@ -1,6 +1,6 @@
 # quiz-game
 ## Home 
-![127 0 0 1_5500_](https://user-images.githubusercontent.com/61211600/111082682-d21eeb00-8533-11eb-906a-796a8a8e8f1d.png)
+![vanilajs-quiz netlify app_ (3)](https://user-images.githubusercontent.com/61211600/111082795-55404100-8534-11eb-8651-64c6272e30c6.png)
 
 ## Question
 ![127 0 0 1_5500_ (1)](https://user-images.githubusercontent.com/61211600/111082684-d3e8ae80-8533-11eb-9ccb-bc57d81bf9d7.png)
