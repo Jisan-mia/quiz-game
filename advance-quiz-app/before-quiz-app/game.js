@@ -47,7 +47,7 @@ const fetchData = () => {
 			// alert("Something wrong with fetch");
 		});
 };
-
+fetchData();
 //load questions
 const loadQuestions = (loadedQuestions) => {
 	questions = loadedQuestions.map((loadedQuestion) => {
