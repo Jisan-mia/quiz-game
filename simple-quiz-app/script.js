@@ -14,30 +14,30 @@ const scoreDiv = document.getElementById("score");
 
 //create our questions
 let questions = [
-	{
-		question: "What does HTML Stands for?",
-		imgSrc: "img/html.png",
-		choiceA: "Correct",
-		choiceB: "Wrong",
-		choiceC: "Wrong",
-		correct: "A",
-	},
-	{
-		question: "What does CSS Stands for?",
-		imgSrc: "img/css.png",
-		choiceA: "Wrong",
-		choiceB: "Correct",
-		choiceC: "Wrong",
-		correct: "B",
-	},
-	{
-		question: "What does JS Stands for?",
-		imgSrc: "img/js.png",
-		choiceA: "Wrong",
-		choiceB: "Wrong",
-		choiceC: "Correct",
-		correct: "C",
-	},
+  {
+    question: "What does HTML Stands for?",
+    imgSrc: "img/html.png",
+    choiceA: "Hyper Text Markup Language",
+    choiceB: "Hyper Title Markup Language",
+    choiceC: "Hyper Tool Markup Language",
+    correct: "A",
+  },
+  {
+    question: "What does CSS Stands for?",
+    imgSrc: "img/css.png",
+    choiceA: "Cascading Style Standards",
+    choiceB: "Cascading Style Sheets",
+    choiceC: "Cascading Style Stand",
+    correct: "B",
+  },
+  {
+    question: "What does JSON Stands for?",
+    imgSrc: "img/js.png",
+    choiceA: "JavaScript Object Note",
+    choiceB: "JavaScript Order Notation",
+    choiceC: "JavaScript Object Notation",
+    correct: "C",
+  },
 ];
 
 //create some variable
